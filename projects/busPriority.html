@@ -9,31 +9,20 @@ hide: true
 
 <p>
         To provide faster and more reliable service, Metro Transit is implementing serveral arterial bus rapid transit (BRT) lines
-        throughout the Twin Cities metropolitan region. While increased stop spacing and off board fare payment mechanisms contribute to
+        throughout the Greater Minneapolis--St. Paul region. While increased stop spacing and off board fare payment mechanisms contribute to
         this goal, additional bus priority treatments (or transit advantages) such as bus lanes, transit signal priority (tsp), and bus
         queue jumps also play a significant role.
 </p>
 <p>
         The net benefit of bus priority treatments greatly depends on where these treatments are situated as traffic congestion and passenger loads
         are continuously flucuating both in time and space. Given that transit advantages cannot span the entire corridor, I created an interactive 
-        Tableau dashboard to answer the question: <i>Where, and at what time of the day, will bus priority treatments provide the most benefit to transit passengers.</i>          
+        Tableau dashboard to answer the question: <b><i>Where, and at what time of the day, will bus priority treatments provide the most benefit 
+        to transit passengers.</i> </b>         
 </p>
 <p>
-        The next step was to analyze the demographic data for the rideshed. For this, I noted variables of interest from the
-        2014-2018 5-year estimates of the American Community Survey. Using the 
-        <a href="https://www.census.gov/data/developers/data-sets/acs-5year.html" target="_blank">Census API</a>
-        and a Jupyter Notebook, I requested the individual variables and transformed the data. I brought the Census data into
-        ArcGIS Pro for geoprocessing where I developed a short
-        <a href="https://github.com/miguelf88/system_analysis" target="_blank">Python script</a>.
-        I then created a web map and dashboard to display the demographpic data. This dashboard is used when PART staff
-        are writing grant applications and they need demographic figures for the entire PART system or an individual route.
+        To allow for the greatest user flexibility, my dashboard presents a set of recommended bus priority locations (Part F in the dashboard below)
+        in addition to an 8-step sequential process in which users can interact with and explore the data themselves in order to draw their own conclusions.
 </p>
-<p>
-        When route planning, it is important to look at origin-destination data so the planner knows where people are coming from
-        and going. <a href="https://onthemap.ces.census.gov/" target = "_blank">OnTheMap</a> is a great tool to use and download
-        OD data from. Each rideshed polygon was analyzed in OnTheMap and the results were exported and loaded into ArcGIS Pro. I
-        created two dashboards that are located on the LEHD Jobs tabs in the Story Map.
-</p>        
 <p>
         <i>(Elements on the dashboards can appear compressed on smaller screens. For optimal viewing please view on a tablet or computer.)</i>          
 </p>
